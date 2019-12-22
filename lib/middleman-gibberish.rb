@@ -148,9 +148,15 @@ module ::Middleman
           <html>
             <head>
               <style>
+                body {
+                  background: #212121;
+                  font-family: Helvetica, Arial, sans-serif;
+                  font-weight: 700;
+                }
                 .gibberish {
                   margin: auto;
-                  color: #999;
+                  color: #BCBCBC;
+                  padding: 20px;
                   text-align: center;
                 }
 
@@ -162,14 +168,23 @@ module ::Middleman
                 }
 
                 .gibberish-password {
-                  border: 1px solid #ccc;
+                  font-size: 18px;
+                  padding: 20px 10px;
+                  width: 100%;
+                  font-weight: 700;
+                  text-align: center;
+                  background: #2e2e2e;
+                  border: 0;
+                  border-radius: 0;
+                  color: #E4E4E4;
                 }
 
                 .gibberish-message {
                   margin: auto;
-                  color: #633;
+                  color: #E52800;
                 }
               </style>
+              <meta name="viewport" content="width=device-width, initial-scale=1">
             </head>
 
             <body style='width:100%;'>
